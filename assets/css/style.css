@@ -2,6 +2,7 @@
   background-color: #8b1e2e;
   width: 400px;
   padding: 10px 15px;
+  font-family: 'Raleway', sans-serif;
 }
 .codigo{
   display: block;
@@ -9,12 +10,16 @@
   height: 100px;
   text-align: center;
   margin: 10px 0;
+  font-size: 40px;
+  
 }
 .valor{
   width: 200px;
   height: 100px;
   background-color: #f9e777;
   border: 0;
+  text-align: center;
+  color: rgb(77, 77, 77);
 }
 .button{
   display: inline-block;

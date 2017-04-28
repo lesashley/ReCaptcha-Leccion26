@@ -1,11 +1,21 @@
-var codigo = document.getElementsByClassName("codigo")[0].value;
-var codigoIngresado = document.getElementsByClassName("valor")[0].value;
+var codigo = document.getElementsByClassName("codigo")[0];
+var codigoIngresado = document.getElementsByClassName("valor")[0];
 
-document.getElementById("btn-actualizar").addEventListener("click",function () {
-  //Gernerar random
-})
+function random() {
+  var letras = "ABCDEFJKLMNOPQRSTUVWXYZ1234567890!'#$";
+  var recaptcha = 0;
+  for(var i = 0; i < 8; i++){
+    var rango = Math.floor(Math.random()*letras.length);
+    recaptcha += letras.substr(rango,1);
+  }
+  codigo.value = recaptcha;
+}
+random();
+
+document.getElementById("btn-actualizar").addEventListener("click",random);
+
 document.getElementById("btn-ok").addEventListener("click",function () {
-  if (codigo == codigoIngresado) {
+  if (codigo.value == codigoIngresado.value) {
     alert("Código correcto");
   }
   else {
