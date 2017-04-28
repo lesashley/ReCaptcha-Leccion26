@@ -1,0 +1,39 @@
+.form{
+  background-color: #8b1e2e;
+  width: 400px;
+  padding: 10px 15px;
+}
+.codigo{
+  display: block;
+  width: 400px;
+  height: 100px;
+  text-align: center;
+  margin: 10px 0;
+}
+.valor{
+  width: 200px;
+  height: 100px;
+  background-color: #f9e777;
+  border: 0;
+}
+.button{
+  display: inline-block;
+  width: 26px;
+}
+#btn-actualizar{
+  width: 25px;
+  height: 25px;
+}
+#btn-ok{
+  width: 25px;
+  height: 25px;
+}
+img{
+  cursor: pointer;
+}
+.recaptcha{
+  float: right;
+  background-color: white;
+  width: 160px;
+  height: 105px;
+}
