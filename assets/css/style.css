@@ -1,8 +1,15 @@
-.form{
+body{
+  font-family: 'Raleway', sans-serif;
+}
+#form{
   background-color: #8b1e2e;
   width: 400px;
   padding: 10px 15px;
-  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+h1{
+  color: #8b1e2e;
+  margin-left: 160px;
 }
 .codigo{
   display: block;
@@ -11,15 +18,15 @@
   text-align: center;
   margin: 10px 0;
   font-size: 40px;
-  
 }
 .valor{
-  width: 200px;
+  width: 225px;
   height: 100px;
   background-color: #f9e777;
   border: 0;
   text-align: center;
   color: rgb(77, 77, 77);
+  font-size: 30px;
 }
 .button{
   display: inline-block;
@@ -39,6 +46,6 @@ img{
 .recaptcha{
   float: right;
   background-color: white;
-  width: 160px;
-  height: 105px;
+  width: 140px;
+  height: 75px;
 }

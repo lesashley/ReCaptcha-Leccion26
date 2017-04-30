@@ -6,7 +6,7 @@ function random() {
   var hexadecimal = "0123456789ABCDEF".split("");
   var c = "#";
   var recaptcha = 0;
-  for(var i = 0; i < 7; i++){
+  for(var i = 0; i < 6; i++){
     var rango = Math.floor(Math.random()*letras.length);
     c += hexadecimal[Math.floor(Math.random() * 16)];
     recaptcha += letras.substr(rango,1);
